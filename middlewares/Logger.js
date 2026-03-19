@@ -4,4 +4,4 @@ console.log(`${timestamp}- ${req.method}- ${req.url} from ${req.ip}`);
 next();
 };
 
-module.export = logRequest;
+module.exports = logRequest
